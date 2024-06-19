@@ -6,6 +6,7 @@ services:
     user: "node:node"
     environment:
       - APP_PORT=${APP_PORT:-3000}
+      - author=someone
     # volumes:
     #   - "./app:/usr/src/app"
     ports:
