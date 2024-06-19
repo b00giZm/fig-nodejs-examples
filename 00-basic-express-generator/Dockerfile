@@ -10,7 +10,7 @@ ENV NODE_ENV ${NODE_ENV}
 COPY --from=build /usr/bin/dumb-init /usr/bin/dumb-init
 RUN mkdir /usr/src/app
 COPY ./app /usr/src/app
-RUN chown node:node /usr/src/app && npm install
+RUN chown node:node /usr/src/app && cd /usr/src/app && npm install
 WORKDIR /usr/src/app
 USER node
 CMD ["dumb-init", "npm", "run", "start"]
