@@ -2,6 +2,7 @@ version: "3.9"
 
 services:
   web:
+    image: test1-frontend-compose-814e04-web:latest
     build: .
     user: "node:node"
     environment:
