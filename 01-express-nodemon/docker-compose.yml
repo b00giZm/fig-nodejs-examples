@@ -5,8 +5,8 @@ services:
     build: .
     user: "node:node"
     environment:
-      - APP_PORT=${APP_PORT:-3000}
-    volumes:
-      - "./app:/usr/src/app"
+      - APP_PORT=${APP_PORT:-3002}
+    # volumes:
+    #   - "./app:/usr/src/app"
     ports:
-      - "3002:3000"
+      - "3002:3002"
