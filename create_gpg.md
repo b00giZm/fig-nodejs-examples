@@ -54,6 +54,7 @@
 ```Shell
 gpg --full-generate-key
 ```
+
 如果使用的不是版本 2.1.17 或更高版本，则 gpg --full-generate-key 命令不起作用。 请粘贴以下文本并跳到第 6 步。
 
 ```Shell
