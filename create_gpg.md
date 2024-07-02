@@ -25,7 +25,7 @@
 
 ## 下载并安装适用于操作系统的 [GPG 命令行工具](https://www.gnupg.org/download/) 
 
-### 方法一
+### 方法一 (经过测试，这条路不通)
 
 #### 按提示安装完 GPG 工具后，会弹出他的桌面UI `Kleopatra`
 
