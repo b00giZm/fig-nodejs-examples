@@ -30,6 +30,7 @@
 #### 按提示安装完 GPG 工具后，会弹出他的桌面UI `Kleopatra`
 
 #### 第一步　新建`openGPG`密钥对
+
 ![新建openGPG密钥对](./image/1_create.png)
 
 #### 第二步　设置`openGPG`密钥对（/名字/邮箱/密码/密钥类型rsa4096/用途/有效期/）
