@@ -107,3 +107,5 @@ gpg --armor --export 3AA5C34371567BD2
 #### 复制以 -----BEGIN PGP PUBLIC KEY BLOCK----- 开头并以 -----END PGP PUBLIC KEY BLOCK----- 结尾的 GPG 密钥。
 
 #### 将 GPG 密钥新增到 GitHub 帐户。
+
+
